@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@import '/root_css.scss';
+@import '/devise.scss';
+
+
