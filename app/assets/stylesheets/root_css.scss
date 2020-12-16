@@ -1,3 +1,15 @@
 * {
     margin: 0;
 }
+
+:root {
+    --blue: #0A369D;
+    --light-blue: #4472CA;
+    --orange: #FFBC42;
+    --ruby: #D81159;
+    --turquoise: #75DDDD;
+}
+
+.overall-container {
+    max-height: 100vh;
+}
