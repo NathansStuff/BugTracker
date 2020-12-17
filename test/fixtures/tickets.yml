@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  summary: MyString
+  steps_to_reproduce: MyString
+  expected_results: MyString
+  actual_results: MyString
+  notes: MyString
+
+two:
+  summary: MyString
+  steps_to_reproduce: MyString
+  expected_results: MyString
+  actual_results: MyString
+  notes: MyString

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @ticket.summary %>
+</p>
+
+<p>
+  <strong>Steps to reproduce:</strong>
+  <%= @ticket.steps_to_reproduce %>
+</p>
+
+<p>
+  <strong>Expected results:</strong>
+  <%= @ticket.expected_results %>
+</p>
+
+<p>
+  <strong>Actual results:</strong>
+  <%= @ticket.actual_results %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @ticket.notes %>
+</p>
+
+<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
+<%= link_to 'Back', tickets_path %>
