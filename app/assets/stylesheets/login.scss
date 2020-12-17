@@ -53,7 +53,7 @@
 
 .login-form-control {
     position: relative;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 20px 0;
     width: 300px;
 }
 
@@ -69,15 +69,14 @@
 }
 
 .login-form-control input:focus,
-.login-form-control label
- {
+.login-form-control label {
     outline: 0;
     border-bottom-color: var(--turquoise);
 }
 
 .login-form-control label {
     position: absolute;
-    // top: 15px;
+    top: 15px;
     left: 0;
 }
 
@@ -88,11 +87,11 @@
     transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-// .login-form-control input:focus + label span,
-// .login-form-control input:valid + label span {
-//     color: white;
-//     transform: translateY(-30px);
-// }
+.login-form-control input:focus + label span,
+.login-form-control input:valid + label span {
+    color: white;
+    transform: translateY(-30px);
+}
 
 .login-input {
     margin-top: 30px;
